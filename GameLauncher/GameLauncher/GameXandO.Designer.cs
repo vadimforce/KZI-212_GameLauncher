@@ -42,28 +42,23 @@ namespace GameLauncher
             this.button9 = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.играToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.игратьОдномуToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.игратьСДругомToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.правилаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.играToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.игратьОдномуToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.игратьСДругомToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.правилаToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.contextMenuStrip1.SuspendLayout();
-            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button1.Location = new System.Drawing.Point(35, 78);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 100);
@@ -73,6 +68,7 @@ namespace GameLauncher
             // 
             // button2
             // 
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button2.Location = new System.Drawing.Point(141, 78);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 100);
@@ -82,6 +78,7 @@ namespace GameLauncher
             // 
             // button3
             // 
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button3.Location = new System.Drawing.Point(247, 78);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(100, 100);
@@ -91,6 +88,7 @@ namespace GameLauncher
             // 
             // button4
             // 
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button4.Location = new System.Drawing.Point(36, 184);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(100, 100);
@@ -100,6 +98,7 @@ namespace GameLauncher
             // 
             // button5
             // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button5.Location = new System.Drawing.Point(142, 184);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(100, 100);
@@ -109,6 +108,7 @@ namespace GameLauncher
             // 
             // button6
             // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button6.Location = new System.Drawing.Point(247, 184);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(100, 100);
@@ -118,6 +118,7 @@ namespace GameLauncher
             // 
             // button7
             // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button7.Location = new System.Drawing.Point(36, 290);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(100, 100);
@@ -127,6 +128,7 @@ namespace GameLauncher
             // 
             // button8
             // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button8.Location = new System.Drawing.Point(142, 290);
             this.button8.Name = "button8";
             this.button8.Size = new System.Drawing.Size(100, 100);
@@ -136,6 +138,7 @@ namespace GameLauncher
             // 
             // button9
             // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.button9.Location = new System.Drawing.Point(248, 290);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(100, 100);
@@ -149,7 +152,7 @@ namespace GameLauncher
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox3);
-            this.panel1.Location = new System.Drawing.Point(12, 431);
+            this.panel1.Location = new System.Drawing.Point(1, 1);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(393, 50);
             this.panel1.TabIndex = 9;
@@ -157,7 +160,7 @@ namespace GameLauncher
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(292, 0);
+            this.pictureBox4.Location = new System.Drawing.Point(277, 0);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(50, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -165,24 +168,26 @@ namespace GameLauncher
             this.pictureBox4.TabStop = false;
             this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(68, 50);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(343, 0);
+            this.pictureBox3.Location = new System.Drawing.Point(333, 0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(50, 50);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 1;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 0;
-            this.pictureBox2.TabStop = false;
             // 
             // contextMenuStrip1
             // 
@@ -197,7 +202,7 @@ namespace GameLauncher
             // играToolStripMenuItem
             // 
             this.играToolStripMenuItem.Name = "играToolStripMenuItem";
-            this.играToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.играToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.играToolStripMenuItem.Text = "Игра";
             // 
             // игратьОдномуToolStripMenuItem
@@ -215,54 +220,15 @@ namespace GameLauncher
             // правилаToolStripMenuItem
             // 
             this.правилаToolStripMenuItem.Name = "правилаToolStripMenuItem";
-            this.правилаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.правилаToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.правилаToolStripMenuItem.Text = "Правила";
             this.правилаToolStripMenuItem.Click += new System.EventHandler(this.правилаToolStripMenuItem_Click);
-            // 
-            // menuStrip1
-            // 
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.играToolStripMenuItem1});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(396, 24);
-            this.menuStrip1.TabIndex = 11;
-            this.menuStrip1.Text = "menuStrip1";
-            // 
-            // играToolStripMenuItem1
-            // 
-            this.играToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.игратьОдномуToolStripMenuItem1,
-            this.игратьСДругомToolStripMenuItem1,
-            this.правилаToolStripMenuItem1});
-            this.играToolStripMenuItem1.Name = "играToolStripMenuItem1";
-            this.играToolStripMenuItem1.Size = new System.Drawing.Size(46, 20);
-            this.играToolStripMenuItem1.Text = "Игра";
-            // 
-            // игратьОдномуToolStripMenuItem1
-            // 
-            this.игратьОдномуToolStripMenuItem1.Name = "игратьОдномуToolStripMenuItem1";
-            this.игратьОдномуToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.игратьОдномуToolStripMenuItem1.Text = "Играть одному";
-            // 
-            // игратьСДругомToolStripMenuItem1
-            // 
-            this.игратьСДругомToolStripMenuItem1.Name = "игратьСДругомToolStripMenuItem1";
-            this.игратьСДругомToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.игратьСДругомToolStripMenuItem1.Text = "Играть с другом";
-            // 
-            // правилаToolStripMenuItem1
-            // 
-            this.правилаToolStripMenuItem1.Name = "правилаToolStripMenuItem1";
-            this.правилаToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.правилаToolStripMenuItem1.Text = "Правила";
             // 
             // GameXandO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(396, 507);
-            this.Controls.Add(this.menuStrip1);
+            this.ClientSize = new System.Drawing.Size(385, 429);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
@@ -273,19 +239,16 @@ namespace GameLauncher
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "GameXandO";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Load += new System.EventHandler(this.GameXandO_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.contextMenuStrip1.ResumeLayout(false);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -309,10 +272,5 @@ namespace GameLauncher
         private System.Windows.Forms.ToolStripMenuItem игратьОдномуToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem игратьСДругомToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem правилаToolStripMenuItem;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem играToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem игратьОдномуToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem игратьСДругомToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem правилаToolStripMenuItem1;
     }
 }

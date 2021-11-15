@@ -82,7 +82,8 @@ namespace GameLauncher
             this.label2.Size = new System.Drawing.Size(110, 130);
             this.label2.TabIndex = 3;
             this.label2.Text = "Разработчики:\r\nРогов Вадим\r\nМалый Денис\r\nПринцев Денис\r\nАналитики:\r\nСавченко Семё" +
-    "н\r\nШакая Арина\r\nТестировщики:\r\nНурпеисова Камила\r\nЛюбицкая Арина\r\n";
+    "н\r\nШакая Арина\r\nТестировщики:\r\nНурпеисова Камила\r\nЛюбицкая Алина\r\n";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // StartForm
             // 

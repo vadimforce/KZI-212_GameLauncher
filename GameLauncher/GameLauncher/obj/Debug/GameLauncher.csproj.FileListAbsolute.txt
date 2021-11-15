@@ -10,3 +10,5 @@ C:\Users\Vadim\Desktop\GameLauncher\GameLauncher\GameLauncher\obj\Debug\GameLaun
 C:\Users\Vadim\Desktop\GameLauncher\GameLauncher\GameLauncher\obj\Debug\GameLauncher.pdb
 C:\Users\Vadim\Desktop\GameLauncher\GameLauncher\GameLauncher\obj\Debug\GameLauncher.GameXandO.resources
 C:\Users\Vadim\Desktop\GameLauncher\GameLauncher\GameLauncher\obj\Debug\GameLauncher.MenuForm.resources
+C:\Users\Vadim\Desktop\GameLauncher\GameLauncher\GameLauncher\bin\Debug\GameLauncherDB.mdf
+C:\Users\Vadim\Desktop\GameLauncher\GameLauncher\GameLauncher\bin\Debug\GameLauncherDB_log.ldf

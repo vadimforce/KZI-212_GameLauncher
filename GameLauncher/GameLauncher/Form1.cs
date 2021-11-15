@@ -24,5 +24,10 @@ namespace GameLauncher
             this.Hide();
             timer1.Enabled = false;
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

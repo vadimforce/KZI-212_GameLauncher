@@ -35,5 +35,19 @@ namespace GameLauncher
             f2.Show();
             this.Hide();
         }
+
+        private void MenuForm_Load(object sender, EventArgs e)
+        {
+            ToolTip t = new ToolTip();
+            t.SetToolTip(pictureBox1, "Крестики Нолики");
+            ToolTip t1 = new ToolTip();
+            t.SetToolTip(pictureBox6, "Тетрис");
+            ToolTip t3 = new ToolTip();
+            t.SetToolTip(pictureBox7, "Сапёр");
+            ToolTip t4 = new ToolTip();
+            t.SetToolTip(pictureBox8, "Шашки");
+            ToolTip t5 = new ToolTip();
+            t.SetToolTip(pictureBox9, "Кликер");
+        }
     }
 }
