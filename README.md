@@ -1,3 +1,6 @@
+< h4 align = "center" >
+ < img alt = "bg" scr =GameLauncher.png" >
+</ h4 >
 Проект: GameLauncher - Лаунчер игр
 Группа КЗИ-212
 Лидер группы:Рогов Вадим
