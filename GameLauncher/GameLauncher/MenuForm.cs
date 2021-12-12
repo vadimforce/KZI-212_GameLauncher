@@ -48,6 +48,27 @@ namespace GameLauncher
             t.SetToolTip(pictureBox8, "Шашки");
             ToolTip t5 = new ToolTip();
             t.SetToolTip(pictureBox9, "Кликер");
+            ToolTip t6 = new ToolTip();
+            t.SetToolTip(pictureBox2, "Арканоид");
+        }
+
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+        Point lastPoint;
+        private void MenuForm_MouseMove(object sender, MouseEventArgs e)
+        {
+            if(e.Button == MouseButtons.Left)
+            {
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }
+        }
+
+        private void MenuForm_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);
         }
     }
 }

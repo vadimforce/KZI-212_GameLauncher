@@ -19,13 +19,18 @@ namespace GameLauncher
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            MenuForm f2 = new MenuForm();
+            LoadingForm f2 = new LoadingForm();
             f2.Show();
             this.Hide();
             timer1.Enabled = false;
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void StartForm_Load(object sender, EventArgs e)
         {
 
         }

@@ -26,3 +26,5 @@ C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug
 C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.csproj.CoreCompileInputs.cache
 C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.exe
 C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.pdb
+C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.LoadingForm.resources
+C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.RegisterForm.resources
