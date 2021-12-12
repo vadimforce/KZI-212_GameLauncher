@@ -1,8 +1,8 @@
 # GameLauncher
 
-<h4 align="center">
+<h1 align="center">
   <img alt="background" src="GameLauncher.png">
-</h4>
+</h1>
 
 Проект: GameLauncher - Лаунчер игр
  - Группа: КЗИ-212
