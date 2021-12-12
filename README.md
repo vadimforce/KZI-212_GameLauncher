@@ -46,6 +46,6 @@ Jira: https://kzi-212.atlassian.net/jira/software/projects/DNFR/boards/1
 
 ## Прочие ссылки
 
-GitHub: https://github.com/vadimforce/KZI-212_GameLauncher
-Discord: https://discord.gg/uZDyXMgWtn
-email: gamelauncher_kzi@mail.ru
+-GitHub: https://github.com/vadimforce/KZI-212_GameLauncher
+-Discord: https://discord.gg/uZDyXMgWtn
+-email: gamelauncher_kzi@mail.ru
