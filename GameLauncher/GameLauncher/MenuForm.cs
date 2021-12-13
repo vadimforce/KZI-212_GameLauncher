@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace GameLauncher
 {
     public partial class MenuForm : Form
@@ -69,6 +70,32 @@ namespace GameLauncher
         private void MenuForm_MouseDown(object sender, MouseEventArgs e)
         {
             lastPoint = new Point(e.X, e.Y);
+        }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            Checkers f3 = new Checkers();
+            f3.Show();
+            this.Hide();
+        }
+
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+            Saper f4 = new Saper();
+            f4.Show();
+            this.Hide();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Arcanoid f5 = new Arcanoid();
+            f5.Show();
+            this.Hide();
         }
     }
 }
