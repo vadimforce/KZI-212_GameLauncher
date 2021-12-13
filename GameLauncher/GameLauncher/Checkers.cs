@@ -37,8 +37,8 @@ namespace GameLauncher
         {
             InitializeComponent();
 
-            whiteFigure = new Bitmap(new Bitmap(@"C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\Image\w.png"), new Size(cellSize - 10, cellSize - 10));
-            blackFigure = new Bitmap(new Bitmap(@"C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\Image\b.png"), new Size(cellSize - 10, cellSize - 10));
+            whiteFigure = new Bitmap(new Bitmap(System.IO.Path.Combine(new System.IO.DirectoryInfo(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "Images\\w.png")), new Size(cellSize - 10, cellSize - 10));
+            blackFigure = new Bitmap(new Bitmap(System.IO.Path.Combine(new System.IO.DirectoryInfo(System.IO.Directory.GetCurrentDirectory()).Parent.Parent.FullName.ToString(), "Images\\b.png")), new Size(cellSize - 10, cellSize - 10));
 
             this.Text = "Checkers";
 

@@ -24,7 +24,7 @@ namespace GameLauncher
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            MenuForm f2 = new MenuForm();
+            LoginForm f2 = new LoginForm();
             f2.Show();
             this.Hide();
             timer1.Enabled = false;

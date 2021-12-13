@@ -31,3 +31,6 @@ C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug
 C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.Checkers.resources
 C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.Saper.resources
 C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.Arcanoid.resources
+C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.Phisycs.resources
+C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.Klicker.resources
+C:\Users\Vadim\Desktop\KZI-212_GameLauncher1\GameLauncher\GameLauncher\obj\Debug\GameLauncher.LoginForm.resources

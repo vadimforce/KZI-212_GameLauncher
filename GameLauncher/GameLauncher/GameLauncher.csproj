@@ -95,6 +95,12 @@
     <Compile Include="GameXandO.Designer.cs">
       <DependentUpon>GameXandO.cs</DependentUpon>
     </Compile>
+    <Compile Include="Klicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Klicker.Designer.cs">
+      <DependentUpon>Klicker.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoadForm2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -118,6 +124,12 @@
     </Compile>
     <Compile Include="MenuForm.Designer.cs">
       <DependentUpon>MenuForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Phisycs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Phisycs.Designer.cs">
+      <DependentUpon>Phisycs.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -148,11 +160,20 @@
     <EmbeddedResource Include="GameXandO.resx">
       <DependentUpon>GameXandO.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Klicker.resx">
+      <DependentUpon>Klicker.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoadingForm.resx">
       <DependentUpon>LoadingForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginForm.resx">
+      <DependentUpon>LoginForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuForm.resx">
       <DependentUpon>MenuForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Phisycs.resx">
+      <DependentUpon>Phisycs.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

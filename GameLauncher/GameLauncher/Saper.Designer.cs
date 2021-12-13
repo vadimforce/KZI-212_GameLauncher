@@ -29,6 +29,7 @@ namespace GameLauncher
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Saper));
             this.SuspendLayout();
             // 
             // Saper
@@ -40,9 +41,10 @@ namespace GameLauncher
             this.ClientSize = new System.Drawing.Size(481, 294);
             this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Saper";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Saper";
+            this.Text = "Сапёр";
             this.Load += new System.EventHandler(this.Saper_Load);
             this.ResumeLayout(false);
 

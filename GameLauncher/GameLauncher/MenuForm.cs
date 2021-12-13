@@ -32,7 +32,7 @@ namespace GameLauncher
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            MenuForm f2 = new MenuForm();
+            LoginForm f2 = new LoginForm();
             f2.Show();
             this.Hide();
         }
@@ -51,11 +51,13 @@ namespace GameLauncher
             t.SetToolTip(pictureBox9, "Кликер");
             ToolTip t6 = new ToolTip();
             t.SetToolTip(pictureBox2, "Арканоид");
+            ToolTip t7 = new ToolTip();
+            t.SetToolTip(pictureBox10, "2048");
         }
 
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Приложение GameLauncher позволяет выбрать среди списка доступных игр и непосредственно поиграть в них. Мы - оффлайн-сервис игр, разработанный (и поддерживаемый) студентами группы КЗИ-212 Омского Гоcударственного Технического Университета. Приятной игры!");
         }
         Point lastPoint;
         private void MenuForm_MouseMove(object sender, MouseEventArgs e)
@@ -95,6 +97,20 @@ namespace GameLauncher
         {
             Arcanoid f5 = new Arcanoid();
             f5.Show();
+            this.Hide();
+        }
+
+        private void pictureBox10_Click(object sender, EventArgs e)
+        {
+            Phisycs f6 = new Phisycs();
+            f6.Show();
+            this.Hide();
+        }
+
+        private void pictureBox9_Click(object sender, EventArgs e)
+        {
+            Klicker f9 = new Klicker();
+            f9.Show();
             this.Hide();
         }
     }
